@@ -31,7 +31,7 @@ const login = async (req, res) => {
             id: user.id,
           },
           secret,
-          { expiresIn: "1h" }
+          { expiresIn: "60d" }
         ),
       });
     } else {
@@ -91,7 +91,7 @@ const register = async (req, res) => {
             id: user.id,
           },
           secret,
-          { expiresIn: "1h" }
+          { expiresIn: "60d" }
         ),
       });
     } else {
