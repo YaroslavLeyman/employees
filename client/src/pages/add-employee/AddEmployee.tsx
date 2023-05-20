@@ -43,7 +43,7 @@ export const AddEmployee = () => {
       <Row align="middle" justify="center">
         <EmployeeForm
           onFinish={handleAddEmployee}
-          title="Добавить сутрудника"
+          title="Добавить сотрудника"
           btnText="Добавить"
           error={error}
         />

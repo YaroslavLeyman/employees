@@ -1,6 +1,6 @@
 # Веб приложение - Сотрудники
 
-[Посмотреть приложение](https://)
+## [Посмотреть приложение](https://employees.itleiman.ru)
 
 ### Протестировать
 
@@ -10,7 +10,7 @@ Email: test@test.ru
 
 Или зарегистрироваться по своему email и паролю
 
-## Функциональность
+### Описание
 
 - Авторизация
 - Добавление, редактирование, удаление сотрудников
@@ -18,11 +18,15 @@ Email: test@test.ru
 
 ### Технологии
 
+Frontend:
 - React
 - TypeScript
 - Redux Toolkit
 - RTK Query
 - Ant Design
+
+Backend:
 - Express
+- Node.js
 - JWT Token
 - Prisma
